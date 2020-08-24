@@ -112,4 +112,11 @@ public class CryptoUtils
 			}
 		}		
 	}
+	
+	public static void registerJCEProvider(Provider provider)
+	{
+		// check to see if the provider is already registered
+		if (Security.getProvider(provider.getName()) == null)
+			Security.addProvider(provider);
+	}
 }
