@@ -1,7 +1,7 @@
 package org.directtruststandards.timplus.common.crypto.impl;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.security.Key;
 import java.security.KeyPair;
@@ -14,8 +14,7 @@ import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 
 import org.directtruststandards.timplus.common.crypto.CryptoUtils;
-import org.junit.Test;
-
+import org.junit.jupiter.api.Test;
 
 public class BootstrappedKeyStoreProtectionManagerTest 
 {

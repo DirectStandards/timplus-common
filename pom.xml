@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>timplus-common</artifactId>    
     <name>TIM+ Common</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>TIM+ common structures and utilities</description>
     <inceptionYear>2020</inceptionYear>
     <url>https://github.com/DirectStandards/timplus-common</url>   
     <parent>
 	   <groupId>org.springframework.boot</groupId>
 	   <artifactId>spring-boot-starter-parent</artifactId>
-	   <version>2.3.2.RELEASE</version>
+	   <version>2.4.5</version>
     </parent>     
     <developers>
         <developer>
@@ -68,13 +68,12 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>2.11.2</version>
-        </dependency>			      	    		 	                                  		                  
-	    <dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<version>4.13</version>
-		</dependency>  	   	    			   																																																																																												
+		</dependency>        			      	    		 	                                  		                   	   	    			   																																																																																												
   </dependencies>      
   <build>
   	<extensions>
