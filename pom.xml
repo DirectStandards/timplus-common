@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>timplus-common</artifactId>    
     <name>TIM+ Common</name>
-    <version>1.1.0</version>
+    <version>1.2.0-SNAPSHOT</version>
     <description>TIM+ common structures and utilities</description>
     <inceptionYear>2020</inceptionYear>
     <url>https://github.com/DirectStandards/timplus-common</url>   
